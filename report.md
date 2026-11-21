@@ -33,7 +33,6 @@ Courier companies must decide, for every trip, which parcels to load, in what or
 8. Limitations
 9. Conclusion and Future Work
 10. Project Structure and Execution Steps
-11. References
 
 ---
 
