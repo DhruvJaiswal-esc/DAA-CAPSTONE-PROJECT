@@ -236,8 +236,8 @@ The system produces, for a given dataset, the sorted parcel list, the optimal pa
 
 **Screenshots / output traces** (insert your own below):
 
-- Figure 1: `python courier_planner.py data/small.json`
-- Figure 2: `python courier_planner.py data/large.json`
+- Figure 1: `python courier_planner.py small.json`
+- Figure 2: `python courier_planner.py large.json`
 - Figure 3: `python benchmark.py` terminal output
 - Figure 4: `runtime_chart.png`
 
@@ -262,9 +262,9 @@ courier_planner.py    Main system (all four algorithms + pipeline)
 benchmark.py          Correctness tests, runtime benchmark, chart
 report.md             This report
 README.md             Short documentation
-data/small.json       Demo dataset (10 parcels, 8 nodes)
-data/large.json       Large dataset (500 parcels, 200 nodes)
-outputs/              Run traces, benchmark results, runtime_chart.png
+small.json            Demo dataset (10 parcels, 8 nodes)
+large.json            Large dataset (500 parcels, 200 nodes)
+output                Run traces, benchmark results, runtime_chart.png
 ```
 
 **To run** (from the project folder; Python 3.8+):
